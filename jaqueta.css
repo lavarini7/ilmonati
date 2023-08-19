@@ -1,0 +1,133 @@
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    font-family: 'Spectral SC', serif;
+    
+}
+#home{
+    color: white;
+}
+
+header{
+
+    height: 11vh;
+    align-items: center;
+    color: #D0440E;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 34vw;
+    padding-left: 34vw;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #D0440E;
+}
+
+#submenu{
+    position: absolute;
+    list-style: none;
+    background-color:#0E0E0E ;
+    color: gray;
+    width: 5%;
+    justify-content: space-around;
+    height:10vh ;
+    opacity: 0;
+    z-index: -1;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-top:#0d0cb5 ;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+#submenu li {
+    margin-left: -17px;
+}
+
+#services:hover #submenu{
+    opacity: 1;
+    z-index: 10;
+}
+
+#letrasss{
+    margin-left: 450px;
+}
+#submenu li{
+    margin-left: 20px;
+    
+}
+
+#services{
+    border-top:#0d0cb5 ;
+    list-style: none;
+}
+
+#submenu  :hover{
+color: white;
+}
+
+.produtos-card1{
+    display: flex;
+   justify-content: center;
+
+}
+
+.produtos-card1 p{
+text-align: left;
+color: white;
+font-size: 19px;
+margin-left: 12px;
+padding-top: 20px;
+}
+
+.produto {
+    margin-left: 70px;
+    color: white;
+}
+
+.produtos-card1 h2{
+    color: white;
+    margin-left: 12px;
+    
+}
+
+.baixo{
+    background: #0E0E0E;
+    height: 150px;
+    border-radius: 0px 0px 51px 51px;
+    margin-top: -30px;
+    
+}
+
+#baixoo{
+    margin-top: 100px;
+}
+
+#camis {
+    text-align: center;
+    color: #D0440E;
+}
+
+#logo-header{
+    position: relative;
+    left: 14vw;
+    top: -5vh;
+}
+
+#logo{
+    height: 0vh;
+}
+
+
+#rodape {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+

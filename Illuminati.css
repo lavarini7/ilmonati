@@ -1,0 +1,215 @@
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    font-family: 'Spectral SC', serif;
+    
+}
+#home{
+    color: white;
+}
+
+header{
+
+    height: 11vh;
+    align-items: center;
+    color: #D0440E;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 34vw;
+    padding-left: 34vw;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #D0440E;
+}
+
+#logo-header{
+    position: relative;
+    left: 14vw;
+    top: -5vh;
+}
+
+.container-banner{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner-img{
+    width: 50%;
+}
+
+#logo{
+    height: 0vh;
+}
+.container2{
+    display: flex;
+    align-items: center;
+     justify-content: space-evenly;
+     padding-right: 13vw;
+     padding-left: 13vw;
+     margin-top: 6vh;
+}
+.card-container2{
+    display: inline-block;
+  position: relative;
+}
+
+.card-container2 p{
+    position: absolute;
+    z-index: 10;
+    color: white;
+    top: 0vh;
+    left: 0vw;
+    text-align: center;
+    width: 100%;
+    margin-top: 60px;
+    font-size: 40px;
+}
+
+#bone p {
+    color: #4D6067;
+    width: 354px;
+    margin-left: 27px;
+}
+
+#frio p {
+    color: #5B4D3D;
+    padding-top: -30px;
+}
+
+#oculos p {
+    color: #0C0D12;
+}
+
+.bola{
+    width: 5rem;
+    height: 5rem;
+    background-color: #242424;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    
+}
+
+.bola:hover{
+    color: #D0440E;
+    
+}
+.bola img {
+    position: absolute;
+    width: 4%;
+}
+
+#maee {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 17rem;
+
+
+}
+#puma{
+    width: 3%;
+}
+
+#trap{
+    width: 2rem;
+}
+
+#vilan {
+    width: 3rem;
+}
+
+.produtos-card1{
+    display: flex;
+   justify-content: center;
+
+}
+
+.produtos-card1 p{
+text-align: left;
+color: white;
+font-size: 19px;
+margin-left: 12px;
+padding-top: 20px;
+}
+
+.produto {
+    margin-left: 70px;
+    color: white;
+}
+
+.produtos-card1 h2{
+    color: white;
+    margin-left: 12px;
+    
+}
+
+.baixo{
+    background: #0E0E0E;
+    height: 150px;
+    border-radius: 0px 0px 51px 51px;
+    margin-top: -30px;
+}
+
+#rodape {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+#baixoo  {
+    margin-top: 50px;
+}
+
+
+#submenu{
+    position: absolute;
+    list-style: none;
+    background-color:#0E0E0E ;
+    color: gray;
+    width: 5%;
+    justify-content: space-around;
+    height:10vh ;
+    opacity: 0;
+    z-index: -1;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-top:#0d0cb5 ;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+#submenu li {
+    margin-left: -17px;
+}
+
+#services:hover #submenu{
+    opacity: 1;
+    z-index: 10;
+}
+
+#letrasss{
+    margin-left: 450px;
+}
+#submenu li{
+    margin-left: 20px;
+    
+}
+
+#services{
+    border-top:#0d0cb5 ;
+    list-style: none;
+}
+
+#submenu a :hover{
+color: white;
+}
